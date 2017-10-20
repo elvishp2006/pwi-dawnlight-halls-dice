@@ -1,0 +1,30 @@
+{
+  "name": "pwi-dawnlight-halls-dice",
+  "version": "1.0.0",
+  "description": "Implements useful methods for manipulating dice.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "compile": "babel -d lib/ src/",
+    "prepublish": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elvishp2006/pwi-dawnlight-halls-dice.git"
+  },
+  "keywords": [
+    "pwi",
+    "dawnlight",
+    "halls",
+    "dice"
+  ],
+  "author": "Elvis Henrique Pereira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elvishp2006/pwi-dawnlight-halls-dice/issues"
+  },
+  "homepage": "https://github.com/elvishp2006/pwi-dawnlight-halls-dice#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
