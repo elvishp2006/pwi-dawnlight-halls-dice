@@ -1,6 +1,13 @@
-## PWI Dawnlight Halls - Dice ##
+# PWI Dawnlight Halls - Dice
+Biblioteca para realizar os turnos dos dados dentro da Dawnlight Halls.
 
-### Instalação ###
+## Começando
+Para o fácil entendimento todos os métodos estão comentados.
+
+### Pré-requisitos
+[Node](nodejs.org)
+
+### Instalação
 ```npm install pwi-dawnlight-halls-dice```
 
 ### Utilização ###
@@ -10,5 +17,12 @@ var dice = new Dice( 'URR' );
 console.log( dice.current );
 ```
 
-### Contribua ###
+## Contribua
+* Fork o projeto.
+* Crie um novo branch.
+* Execute o ```npm install```
+* Faça suas modificações.
+* Faça um pull request.
+
+## Autor
 **PWI Etherblade - sbKira**
