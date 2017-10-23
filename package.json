@@ -4,8 +4,8 @@
   "description": "Implements useful methods for manipulating dice.",
   "main": "./lib/index.js",
   "scripts": {
-    "compile": "babel -d lib/ src/",
-    "prepublish": "npm run compile"
+    "build": "babel src/ --presets babel-preset-es2015 --out-dir lib/",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -13,8 +13,7 @@
   },
   "keywords": [
     "pwi",
-    "dawnlight",
-    "halls",
+    "dawnlight halls",
     "dice"
   ],
   "author": "Elvis Henrique Pereira",
